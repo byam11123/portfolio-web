@@ -2,7 +2,7 @@ import React from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { useOutletContext } from "@remix-run/react";
 import { IconDownload } from "@tabler/icons-react";
-import resume from "~/assets/resume.pdf";
+import resume from "~/assets/resum.pdf";
 interface ContextType {
   isIntroDone: boolean;
 }
