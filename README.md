@@ -68,7 +68,7 @@
 
 <h2>🌐 Connect with Me</h2>
 <ul>
-  <li><a href="https://github.com/DurgeshKaiwartya" target="_blank">GitHub</a></li>
+  <li><a href="https://github.com/DurgeshKaiwartya25" target="_blank">GitHub</a></li>
   <li><a href="https://www.linkedin.com/in/durgesh-kaiwartya" target="_blank">LinkedIn</a></li>
 </ul>
 
