@@ -1,6 +1,7 @@
 import {
   IconBook,
   IconBrandGithub,
+  IconBrandInstagram,
   IconBrandLinkedin,
   IconBrandX,
   IconHome,
@@ -81,21 +82,20 @@ const FloatingDockDemo: React.FC<NavbarProps> = ({
       href: "https://www.linkedin.com/in/durgesh-kaiwartya-889197384/",
       target: "_blank",
     },
-
-    {
-      title: "Twitter",
-      icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "https://x.com/DurgeshKaiwartya",
-      target: "_blank",
-    },
     {
       title: "Instagram",
       icon: (
         <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://instagram.com/DurgeshKaiwartya",
+      target: "_blank",
+    },
+    {
+      title: "Twitter",
+      icon: (
+        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://x.com/DurgeshKaiwartya",
       target: "_blank",
     },
   ];
