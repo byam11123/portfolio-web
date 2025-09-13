@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  🔗 <a href="https://thedurgesh.vercel.app" target="_blank"><strong>Visit the Website</strong></a>
+  🔗 <a href="https://durgeshkaiwartya.vercel.app" target="_blank"><strong>Visit the Website</strong></a>
 </p>
 
 ---
