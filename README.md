@@ -1,7 +1,7 @@
 <h1 align="center">✨ The Durgesh Portfolio ✨</h1>
 
 <p align="center">
-   <img src="https://github.com/user-attachments/assets/dd407a7d-ed5a-4701-beba-5d54863f3bd" alt="Website GIF Preview" style="max-width: 100%; border-radius: 10px;" />
+<!--    <img src="https://github.com/user-attachments/assets/dd407a7d-ed5a-4701-beba-5d54863f3bd" alt="Website GIF Preview" style="max-width: 100%; border-radius: 10px;" /> -->
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@
 
 <h2>📸 Website Preview</h2>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dd407a7d-ed5a-4701-beba-5d54863f3bd" alt="Website GIF Preview" style="max-width: 100%; border-radius: 10px;" />
+<!--   <img src="https://github.com/user-attachments/assets/dd407a7d-ed5a-4701-beba-5d54863f3bd" alt="Website GIF Preview" style="max-width: 100%; border-radius: 10px;" /> -->
 </p>
 
 ---
