@@ -21,8 +21,8 @@ interface ContextType {
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "The Priyanshu" },
-    { name: "description", content: "Welcome to The Priyanshu!" },
+    { title: "The Durgesh" },
+    { name: "description", content: "Welcome to The Durgesh!" },
   ];
 };
 
@@ -148,7 +148,7 @@ export default function Index() {
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl"
           id="title-2"
         >
-          The Priyanshu
+          The Durgesh
         </h1>
         <h1
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl"
@@ -164,11 +164,11 @@ export default function Index() {
         }`}
       >
         <HeroSection />
-        <TextRevealByWord text="Hi, my name is Priyanshu Gupta. I am a passionate web developer with expertise in building responsive and dynamic web applications. My work focuses on creating user-centric designs with seamless functionality. I'm continuously learning and evolving in the field of technology." />
+        <TextRevealByWord text="Hi, I'm Durgesh Kaiwartya, a passionate Graphic Designer and Image Editor with expertise in creating visually striking designs for banners, flexes, posters, and more. My work focuses on delivering user-centric designs that communicate messages clearly while maintaining aesthetic appeal. I'm always exploring new design trends, experimenting with typography and color combinations, and improving my skills to provide creative solutions that help businesses stand out." />
         <AnimatedDivider
           alignment="center"
           text="Skills"
-          textClassName="text-3xl font-bold"
+          textClassName="text-3xl font-bold "
         />
         <Skills />
       </div>

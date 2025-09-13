@@ -19,7 +19,7 @@ const ProjectsComponent: React.FC = () => {
             >
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <span className="text-white text-xl font-bold">
-                  Solar Software
+                  ScreenOffset
                 </span>
               </div>
             </Link>
@@ -33,9 +33,7 @@ const ProjectsComponent: React.FC = () => {
               }}
             >
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <span className="text-white text-xl font-bold">
-                  Banking Software
-                </span>
+                <span className="text-white text-xl font-bold">Templates</span>
               </div>
             </Link>
 
@@ -48,9 +46,7 @@ const ProjectsComponent: React.FC = () => {
               }}
             >
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <span className="text-white text-xl font-bold">
-                  Npm Package
-                </span>
+                <span className="text-white text-xl font-bold">Cards</span>
               </div>
             </Link>
 
@@ -63,7 +59,7 @@ const ProjectsComponent: React.FC = () => {
               }}
             >
               <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <span className="text-white text-xl font-bold">E Commerce</span>
+                <span className="text-white text-xl font-bold">Banners</span>
               </div>
             </Link>
           </div>

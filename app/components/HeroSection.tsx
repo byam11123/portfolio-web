@@ -12,20 +12,21 @@ const HeroSection: React.FC = () => {
     <div className="flex py-10 flex-col-reverse gap-8 md:flex-row items-center justify-between w-full md:py-0">
       {/* Text Section */}
       <div className="w-full text-center md:text-left mb-6 md:mb-0">
-        <h1 className="text-3xl md:text-5xl font-bold">
-          Hi, my name is Priyanshu Gupta
+        <h1 className="text-3xl md:text-5xl font-bold text-black dark:text-white">
+          Hi, I'm Durgesh Kaiwartya
         </h1>
-        <p className="mt-4 text-base md:text-xl text-zinc-600">
-          I’m a passionate software developer with expertise in building
-          responsive web applications. I enjoy turning complex problems into
-          simple, beautiful, and intuitive designs. Let&apos;s work together to
-          create something amazing!
+        <p className="mt-4 text-base md:text-xl text-zinc-700 dark:text-zinc-600 text-justify">
+          I'm a passionate Graphic Designer and Image Editor with expertise in
+          creating eye-catching and effective designs. I enjoy transforming
+          ideas into visually appealing banners, flexes, and posters that are
+          both impactful and easy to understand. Let&apos;s collaborate to bring
+          your brand&apos;s vision to life!
         </p>
         {/* Know More Button */}
         {/* <button className="btn btn-primary mt-5 flex items-center">
           Resume <IconDownload />
         </button> */}
-        <a href={resume} download="Priyanshu_Gupta_Resume.pdf">
+        <a href={resume} download="Durgesh_Kaiwartya_Resume.pdf">
           <button
             className="bg-black dark:bg-zinc-50 text-center w-48 rounded-2xl h-14 relative text-white dark:text-black text-xl font-semibold group mt-5"
             type="button"

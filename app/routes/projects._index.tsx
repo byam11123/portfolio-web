@@ -15,8 +15,8 @@ import Loader from "~/components/Loader/Loader";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "The Priyanshu | Projects" },
-    { name: "description", content: "Welcome to The Priyanshu!" },
+    { title: "The Durgesh | Projects" },
+    { name: "description", content: "Welcome to The Durgesh!" },
   ];
 };
 
@@ -88,14 +88,6 @@ const Projects: React.FC = () => {
                             <h3 className="text-2xl font-bold text-white">
                               {item?.title}
                             </h3>
-                            {item?.description && (
-                              <p className="text-white">
-                                {item.description[0]?.content
-                                  .split(" ")
-                                  .slice(0, 6)
-                                  .join(" ") + "..."}
-                              </p>
-                            )}
                           </div>
                         </div>
                       </Link>

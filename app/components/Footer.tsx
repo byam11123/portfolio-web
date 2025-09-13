@@ -61,32 +61,19 @@ const Footer: React.FC<FooterProps> = ({ isIntroDone }) => {
         </div>
 
         <p className="text-center text-black dark:text-white text-base mt-8">
-          Built with <span className="text-red-500 animate-pulse">❤️</span>{" "}
-          using Remix + Tailwind CSS by{" "}
+          Built with <span className="text-red-500 animate-pulse">❤️</span> by{" "}
           <a
-            href="https://github.com/PriyanshuGupta28"
+            href="https://github.com/DurgeshKaiwartya25"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline"
           >
-            Priyanshu Gupta
+            Byamkesh Kaiwartya
           </a>
         </p>
 
         <p className="text-center text-black dark:text-white text-base mt-4">
-          View source code
-          <a
-            href="https://github.com/PriyanshuGupta28/thepriyanshu"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline ml-1"
-          >
-            Github repository
-          </a>
-        </p>
-
-        <p className="text-center text-black dark:text-white text-base mt-4">
-          © thepriyanshu. All rights reserved.
+          © CodingBytes. All rights reserved.
         </p>
       </div>
     </footer>

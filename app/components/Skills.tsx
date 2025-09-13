@@ -13,104 +13,27 @@ import {
   SiGithub,
   SiAntdesign,
 } from "react-icons/si";
-import { TbBrandNextjs, TbBrandRedux } from "react-icons/tb";
-import { RiCss3Fill } from "react-icons/ri";
-import { FaReact, FaNodeJs, FaNpm } from "react-icons/fa";
-import { BiLogoMongodb } from "react-icons/bi";
-import { CgVercel } from "react-icons/cg";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiAdobeillustrator } from "react-icons/si";
+import { SiCoreldraw } from "react-icons/si";
 import { LinkPreview } from "./ui/link-preview";
 
 const Skills: React.FC = () => {
   const skillItems = [
     {
-      title: "React",
-      icon: <FaReact className="text-blue-500" />,
-      link: "https://reactjs.org/",
+      title: "Adobe Photoshop",
+      icon: <SiAdobephotoshop className="text-blue-500" />,
+      link: "https://www.adobe.com/products/photoshop.html",
     },
     {
-      title: "Next.js",
-      icon: <TbBrandNextjs className="text-black dark:text-white" />,
-      link: "https://nextjs.org/",
+      title: "Adobe illustrator",
+      icon: <SiAdobeillustrator className=" text-orange-400 dark:text-white" />,
+      link: "https://www.adobe.com/products/illustrator.html",
     },
     {
-      title: "Redux",
-      icon: <TbBrandRedux className="text-purple-600" />,
-      link: "https://redux.js.org/",
-    },
-    {
-      title: "JavaScript",
-      icon: <SiJavascript className="text-yellow-500" />,
-      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    },
-    {
-      title: "TypeScript",
-      icon: <SiTypescript className="text-blue-600" />,
-      link: "https://www.typescriptlang.org/",
-    },
-    {
-      title: "HTML5",
-      icon: <SiHtml5 className="text-orange-500" />,
-      link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-    },
-    {
-      title: "CSS3",
-      icon: <RiCss3Fill className="text-blue-500" />,
-      link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-    },
-    {
-      title: "Node.js",
-      icon: <FaNodeJs className="text-green-500" />,
-      link: "https://nodejs.org/",
-    },
-    {
-      title: "Express",
-      icon: <SiExpress className="text-black dark:text-white" />,
-      link: "https://expressjs.com/",
-    },
-    {
-      title: "Vite",
-      icon: <SiVite className="text-purple-500" />,
-      link: "https://vitejs.dev/",
-    },
-    {
-      title: "Remix",
-      icon: <SiRemix className="text-cyan-500" />,
-      link: "https://remix.run/",
-    },
-    {
-      title: "MongoDB",
-      icon: <BiLogoMongodb className="text-green-600" />,
-      link: "https://www.mongodb.com/",
-    },
-    {
-      title: "Vercel",
-      icon: <CgVercel className="text-black dark:text-white" />,
-      link: "https://vercel.com/",
-    },
-    {
-      title: "Material UI",
-      icon: <SiMui className="text-blue-600 " />,
-      link: "https://mui.com/",
-    },
-    {
-      title: "Tailwind Css",
-      icon: <SiTailwindcss className="text-cyan-400" />,
-      link: "https://tailwindcss.com/",
-    },
-    {
-      title: "Github",
-      icon: <SiGithub className="text-black dark:text-white" />,
-      link: "https://github.com/",
-    },
-    {
-      title: "Npm",
-      icon: <FaNpm className="text-red-600" />,
-      link: "https://www.npmjs.com/",
-    },
-    {
-      title: "Ant Design",
-      icon: <SiAntdesign className="text-blue-500" />,
-      link: "https://ant.design/",
+      title: "CorelDraw",
+      icon: <SiCoreldraw className="text-green-400" />,
+      link: "https://www.coreldraw.com/en/",
     },
   ];
 
@@ -128,10 +51,10 @@ const Skills: React.FC = () => {
   return (
     <div className="container mx-auto py-12 flex flex-col items-center">
       <Flipper flipKey={items.map((item) => item.title).join("")}>
-        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 gap-6 w-full">
+        <div className="flex flex-wrap justify-center items-center gap-6 w-full">
           {items.map((item) => (
             <Flipped key={item.title} flipId={item.title}>
-              <div className="w-full p-3 gap-1 flex flex-col justify-center items-center">
+              <div className="w-32 p-3 gap-1 flex flex-col justify-center items-center">
                 <LinkPreview url={item.link}>
                   <div className="text-4xl mb-2">{item.icon}</div>
                 </LinkPreview>

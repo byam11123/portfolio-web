@@ -1,15 +1,15 @@
-<h1 align="center">✨ The Priyanshu Portfolio ✨</h1>
+<h1 align="center">✨ The Durgesh Portfolio ✨</h1>
 
 <p align="center">
    <img src="https://github.com/user-attachments/assets/dd407a7d-ed5a-4701-beba-5d54863f3bdd" alt="Website GIF Preview" style="max-width: 100%; border-radius: 10px;" />
 </p>
 
 <p align="center">
-  Welcome to <strong>The Priyanshu Portfolio</strong>, my personal portfolio website showcasing my skills, projects, and resume in a modern, animated, and responsive design. Built with <strong>Remix + TypeScript (TSX)</strong>, <strong>Tailwind CSS</strong>, and <strong>GSAP</strong>, this website demonstrates top-notch UI/UX principles and cutting-edge web technologies.
+  Welcome to <strong>The Durgesh Portfolio</strong>, my personal portfolio website showcasing my skills, projects, and resume in a modern, animated, and responsive design. Built with <strong>Remix + TypeScript (TSX)</strong>, <strong>Tailwind CSS</strong>, and <strong>GSAP</strong>, this website demonstrates top-notch UI/UX principles and cutting-edge web technologies.
 </p>
 
 <p align="center">
-  🔗 <a href="https://thepriyanshu.vercel.app" target="_blank"><strong>Visit the Website</strong></a>
+  🔗 <a href="https://thedurgesh.vercel.app" target="_blank"><strong>Visit the Website</strong></a>
 </p>
 
 ---
@@ -68,8 +68,8 @@
 
 <h2>🌐 Connect with Me</h2>
 <ul>
-  <li><a href="https://github.com/PriyanshuGupta28" target="_blank">GitHub</a></li>
-  <li><a href="https://www.linkedin.com/in/priyanshu-kumar-581a5a246" target="_blank">LinkedIn</a></li>
+  <li><a href="https://github.com/DurgeshKaiwartya" target="_blank">GitHub</a></li>
+  <li><a href="https://www.linkedin.com/in/durgesh-kaiwartya" target="_blank">LinkedIn</a></li>
 </ul>
 
 ---

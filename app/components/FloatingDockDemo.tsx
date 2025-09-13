@@ -78,7 +78,7 @@ const FloatingDockDemo: React.FC<NavbarProps> = ({
       icon: (
         <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://www.linkedin.com/in/priyanshu-kumar-581a5a246/",
+      href: "https://www.linkedin.com/in/durgesh-kaiwartya/",
       target: "_blank",
     },
 
@@ -87,7 +87,7 @@ const FloatingDockDemo: React.FC<NavbarProps> = ({
       icon: (
         <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://x.com/28Priyanshu2001",
+      href: "https://x.com/DurgeshKaiwartya",
       target: "_blank",
     },
     {
@@ -95,7 +95,7 @@ const FloatingDockDemo: React.FC<NavbarProps> = ({
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://github.com/PriyanshuGupta28",
+      href: "https://github.com/DurgeshKaiwartya",
       target: "_blank",
     },
   ];

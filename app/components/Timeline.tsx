@@ -3,29 +3,29 @@ import React from "react";
 const Timeline: React.FC = () => {
   const experiences = [
     {
-      title: "Front End Developer",
-      company: "Bapa sita innovation and technologies",
-      location: "Gujarat, Vadodara",
+      title: "Graphic Designer",
+      company: "Satya Flex",
+      location: "Kasdol, Balodabazar (C.G.)",
       date: "06/2024 - Present",
       description:
-        "Led the design and development of the complete architecture for rgav.in, a fully functional eCommerce website specializing in Ayurvedic products.",
+        "Led the creative design and layout development for banners, flexes, and posters for local businesses, ensuring visually appealing and brand-consistent marketing materials that effectively communicate their message.",
     },
     {
-      title: "React.js Developer",
-      company: "Eshkon",
-      location: "Gujarat, Ahmedabad",
-      date: "07/2023 - 06/2024",
+      title: "Graphic Designer",
+      company: "Manish Printing",
+      location: "Bilaigarh, Sarangarh-Bilaigarh (C.G.)",
+      date: "07/2022 - 06/2024",
       description:
-        "Spearheaded the development and maintenance of over 20 custom, reusable UI components using Next.js, TypeScript, and Redux.",
-    },
-    {
-      title: "Front End Developer",
-      company: "Echnotech pvt ltd",
-      location: "Karnataka, Bangalore",
-      date: "01/2023 - 06/2023",
-      description:
-        "Led the development of highly responsive and user-centric web applications using React, Redux, JavaScript, HTML5, and Material-UI.",
-    },
+        "Spearheaded the creation and maintenance of over 20 custom, reusable design templates and layouts for banners, flexes, and posters, ensuring consistency, efficiency, and brand alignment across multiple projects.",
+    }
+    //   {
+    //     title: "Front End Developer",
+    //     company: "Echnotech pvt ltd",
+    //     location: "Karnataka, Bangalore",
+    //     date: "01/2023 - 06/2023",
+    //     description:
+    //       "Spearheaded the creation and maintenance of over 20 custom, reusable design templates and layouts for banners, flexes, and posters, ensuring consistency, efficiency, and brand alignment across multiple projects.",
+    //   },
   ];
 
   return (
